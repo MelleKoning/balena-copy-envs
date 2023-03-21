@@ -2,7 +2,7 @@
 
 # check 2 parameters
 if [ $# -ne 2 ]; then
-    echo "Erreur: Veuillez fournir deux arguments : nom de la flotte source et nom de la flotte de destination."
+    echo "Error: Please provide two arguments: source fleet name and destination fleet name."
     exit 1
 fi
 
